@@ -105,7 +105,6 @@ module.exports = {
       process: require.resolve("process/browser"),
     }),
   ],
-  // proxy /api to port 8000 during development
   devServer: {
     historyApiFallback: true,
     proxy: {
